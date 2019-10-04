@@ -1,4 +1,4 @@
-// Problem: given the dates with string then sort dates correctly.
+// Problem: given the dates as string then sort dates correctly.
 // Dates data must be formated.
 const dates = [ "08 Dec 1990", "10", "29 Jan 1994", "24 Oct 2019", "11 Nov 2002", "14 Feb 2010", "14 Feb 1991"];
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
