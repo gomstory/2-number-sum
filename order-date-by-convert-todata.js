@@ -17,6 +17,10 @@ const convertedList = dates
   })
   .map(it => new Date(it));
 
+// Sorting function: 
+// If the result is negative a is sorted before b.
+// If the result is positive b is sorted before a.
+// If the result is 0 no changes are done with the sort order of the two values.
 orderDatas = convertedList.sort((a, b) => {
   const diff = a.getTime() - b.getTime()
   return diff;
