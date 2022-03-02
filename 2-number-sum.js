@@ -20,3 +20,22 @@ function findSum2Number(arr, expectValue) {
 
 let result = findSum2Number([1,2,3,9], 5);
 console.log(result);
+
+
+// Another approaches, but the first is faster
+function findSum2Number(arr, expectValue) {
+    for (let i = 0; i < arr.length; i++) {
+        const oppositeValue = expectValue - arr[i];
+        for (let j = i + 1; j < arr.length; j++) {
+            console.log(arr[i], arr[j], oppositeValue)
+            if (arr[j] === oppositeValue) {
+                return true;
+            }
+        }
+    }
+
+    return false
+}
+
+let result = findSum2Number([1,2,3,9], 5);
+console.log(result);
