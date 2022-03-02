@@ -10,7 +10,7 @@ const graph = {
 
 // Implementation
 // Using Stack and Graph fundamental
-// Using Depth first search technique
+// Using Depth first search travesal
 const hasPath = (graph, src, dst) => {
   // Handle best case
   if (src === dst) return true;;
