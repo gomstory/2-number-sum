@@ -1,3 +1,13 @@
+// Expectation:
+// *
+// -*
+// --*
+// ---*
+// --*
+// -*
+// *
+
+
 const printStars = (n) => {
     const mid = Math.ceil(n / 2)
     let result = ""
